@@ -1,0 +1,42 @@
+.parallaxbox {
+  height: 100vh;
+}
+.parallax {     
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+ }
+.parallax-head {
+  color: rgb(13, 91, 154);
+  font-size: 5rem;
+  text-align: center; 
+  height: 50vh;     
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.parallax-txt {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  height: 50vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgc{
+  background-color:white;
+}
+.bgi1 {
+  background-image: url(../img/1.png);  
+}
+.bgi2 {
+  background-image: url(../img/2.jpg);
+}
+.bgi3 {
+  background-image: url(../img/3.jpg);
+}
